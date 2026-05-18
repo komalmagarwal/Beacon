@@ -1,0 +1,23 @@
+{
+  "name": "beacon",
+  "version": "1.0.0",
+  "description": "Startup ecosystem intelligence — personalised daily digest",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "scrape": "node src/scraper.js",
+    "digest": "node src/digest.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.0",
+    "groq-sdk": "^1.2.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.0",
+    "playwright": "^1.40.0",
+    "twilio": "^4.19.0"
+  }
+}
